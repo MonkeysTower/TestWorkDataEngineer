@@ -129,7 +129,7 @@ https://localhost:{8081 или указаный вами в .env}
 
 \[Optional\] Для проверки можно использовать или **pgAdmin** или командную строку (windows):
 ```
-docker exec -it {Номер контейнера с PostgreSQL} psql -U {Имя пользователя из .env} -d {Имя БД из .env} -c "SELECT COUNT(*) FROM dm.daily_sales;"
+docker exec -it {Номер контейнера с PostgreSQL} psql -U {Имя пользователя из .env} -d {Имя БД из .env} -c "SELECT * FROM dm.daily_sales;"
 ```
 ***Чтобы выйти нажмите кнопку 'Q'***
 
