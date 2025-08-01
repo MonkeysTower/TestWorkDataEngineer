@@ -1,0 +1,32 @@
+# ---------------- #
+# Environment      #
+# ---------------- #
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# ---------------- #
+# IDE / OS Files   #
+# ---------------- #
+.DS_Store
+*.swp
+*.swo
+*.pyc
+*.tmp
+*.log
+__pycache__
+*.py[cod]
+*$py.class
+
+# ---------------- #
+# Airflow          #
+# ---------------- #
+airflow.cfg
+unittests.cfg
+webserver_config.py
+plugins/
+config/
+!src/config
+logs/
