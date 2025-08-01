@@ -29,7 +29,7 @@ def get_last_load_timestamp(**context) -> datetime:
         FROM {TARGET_SCHEMA}.{TARGET_TABLE}
         """
     )
-    return result[0]
+    return str(result[0])
 
 
 def extract_raw_data(**context):
